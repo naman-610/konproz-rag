@@ -23,11 +23,15 @@ Retrieval-Augmented Generation (RAG) is a system designed to combine information
 
 3. python src/app.py
 
+---
+
 ## Key notes
 
 1. Initially the application will take time to load the pdf, since it is storing all the vector in local memory and clean it up post application shutdown
 
 2. Add OpenAI API key in .env file
+
+---
 
 ## RAG API
 
