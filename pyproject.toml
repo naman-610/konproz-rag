@@ -1,0 +1,29 @@
+[project]
+name = "rag"
+version = "0.1.0"
+authors = [
+    { name = "Naman Garg", email = "write2ngarg@gmail.com" }
+]
+description = "This module contains all RAG functionality"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "transformers",
+    "loguru",
+    "pydantic-settings",  
+    "python-dotenv",  
+    "sentence-transformers",
+    "openai",
+    "torch",
+    "dspy",
+    "PyPDF2"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["tests", "build", "dist"]
